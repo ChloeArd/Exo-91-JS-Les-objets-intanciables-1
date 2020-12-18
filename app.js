@@ -28,10 +28,10 @@ document.getElementById("troisieme2").innerHTML = peter.age;
 document.getElementById("quatrieme2").innerHTML = peter.sexe ;
 
 document.getElementById("premiereMethod1").innerHTML = chloe.getPersonne();
-chloe.setChangement("Frédérique","46")
+chloe.setChangement("Frédérique",46)
 document.getElementById("deuxiemeMethod1").innerHTML = chloe.getPersonne();
 
 document.getElementById("premiereMethod2").innerHTML = peter.getPersonne();
-peter.setChangement("Johnny","64");
+peter.setChangement("Johnny",64);
 document.getElementById("deuxiemeMethod2").innerHTML = peter.getPersonne()
 
