@@ -14,8 +14,8 @@ function Personne(nom, prenom, age, sexe){
    }
 }
 
-let chloe = new Personne("Ardoise", "Chloé", "18", "féminin");
-let peter = new Personne("Parker", "Peter", "17", "Masculin");
+let chloe = new Personne("Ardoise", "Chloé", 18, "féminin");
+let peter = new Personne("Parker", "Peter", 17, "Masculin");
 
 document.getElementById("premier1").innerHTML = chloe.nom;
 document.getElementById("deuxieme1").innerHTML = chloe.prenom;
